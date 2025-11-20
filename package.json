@@ -1,13 +1,34 @@
 {
   "name": "beat-preston",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Interactive marketing game: Estate agency professionals compete against Preston AI through 3 real-world challenges",
+  "author": "Greenhouse OS",
+  "license": "MIT",
+  "private": false,
   "type": "module",
+  "keywords": [
+    "estate-agency",
+    "ai",
+    "interactive-game",
+    "marketing",
+    "react",
+    "typescript",
+    "real-estate"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fosco130/beat-preston.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fosco130/beat-preston/issues"
+  },
+  "homepage": "https://github.com/fosco130/beat-preston#readme",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",

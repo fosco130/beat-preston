@@ -126,11 +126,42 @@ See [server/README.md](server/README.md) for detailed backend documentation.
 # Frontend
 npm run build
 
-# Backend
+# Preview production build locally
+npm run preview
+
+# Backend (optional)
 cd server
 npm run build
 npm start
 ```
+
+## 🌐 Deployment
+
+The application is ready to deploy to any modern hosting platform. See **[DEPLOYMENT.md](DEPLOYMENT.md)** for detailed instructions.
+
+### Quick Deploy Options
+
+**Netlify (Recommended):**
+```bash
+# One-click deploy via GitHub
+# Or use CLI: netlify deploy --prod
+```
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/fosco130/beat-preston)
+
+**Vercel:**
+```bash
+# One-click deploy via GitHub
+# Or use CLI: vercel --prod
+```
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/fosco130/beat-preston)
+
+**Platform Status:**
+- ✅ Netlify configuration included (`netlify.toml`)
+- ✅ Vercel configuration included (`vercel.json`)
+- ✅ Static build output ready for any CDN
+- ✅ Client-side routing configured
+
+See the [Deployment Guide](DEPLOYMENT.md) for step-by-step instructions for all platforms.
 
 ## 📱 iPad Optimization
 
