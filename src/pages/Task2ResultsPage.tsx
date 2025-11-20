@@ -256,7 +256,7 @@ export const Task2ResultsPage: React.FC = () => {
         <Title>Nice Work!</Title>
 
         <PrestonReaction shadow="standard">
-          <PrestonAvatar expression="helpful" size={90} />
+          <PrestonAvatar expression="helpful" size={150} />
           <PrestonMessage>
             <PrestonName>Preston</PrestonName>
             <PrestonText>Spotting hot sellers takes time and expertise. One more challenge to see how I can transform your workflow.</PrestonText>

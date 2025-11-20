@@ -177,17 +177,20 @@ const FeedbackToast = styled(motion.div)<{ correct: boolean }>`
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  padding: ${spacing.md} ${spacing.lg};
+  padding: ${spacing.lg} ${spacing.xl};
   background: ${props => (props.correct ? colors.brightGreen : colors.error)};
   color: ${colors.white};
-  border-radius: ${borderRadius.md};
-  box-shadow: ${shadows.prominent};
+  border-radius: ${borderRadius.lg};
+  box-shadow: ${shadows.hero};
   font-weight: ${typography.weights.bold};
   z-index: 1001;
-  font-size: ${typography.sizes.h3};
+  font-size: ${typography.sizes.h2};
   text-align: center;
-  min-width: 200px;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid ${colors.white};
 `;
 
 export const Task1GamePage: React.FC = () => {
@@ -298,7 +301,7 @@ export const Task1GamePage: React.FC = () => {
           </ProgressItem>
 
           <ProgressItem variant="preston">
-            <PrestonAvatar expression="competitive" size={36} />
+            <PrestonAvatar expression="competitive" size={72} />
             <ProgressContent>
               <ProgressLabel>
                 Preston™: {prestonProgress}/{totalLeads}
@@ -355,9 +358,9 @@ export const Task1GamePage: React.FC = () => {
         {feedback.show && (
           <FeedbackToast
             correct={feedback.correct}
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            exit={{ opacity: 0, scale: 0.8 }}
+            initial={{ opacity: 0, scale: 0.8, x: '-50%', y: '-50%' }}
+            animate={{ opacity: 1, scale: 1, x: '-50%', y: '-50%' }}
+            exit={{ opacity: 0, scale: 0.8, x: '-50%', y: '-50%' }}
           >
             {feedback.message}
           </FeedbackToast>

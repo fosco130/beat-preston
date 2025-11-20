@@ -293,7 +293,7 @@ export const WelcomePage: React.FC = () => {
       <HeroSection>
         <TopRow>
           <PrestonShowcase>
-            <PrestonAvatar expression="competitive" size={140} showName />
+            <PrestonAvatar expression="competitive" size={200} showName />
           </PrestonShowcase>
 
           <PrizeRoundel>

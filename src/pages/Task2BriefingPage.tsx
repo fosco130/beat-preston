@@ -198,7 +198,7 @@ export const Task2BriefingPage: React.FC = () => {
         </Description>
 
         <PrestonSection>
-          <PrestonAvatar expression="thinking" size={80} />
+          <PrestonAvatar expression="thinking" size={140} />
           <PrestonMessage>
             <PrestonText>
               "I analyze thousands of data points instantly. Let's see if your intuition can match my pattern recognition." — Preston™

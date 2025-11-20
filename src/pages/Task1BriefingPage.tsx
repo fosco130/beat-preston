@@ -198,7 +198,7 @@ export const Task1BriefingPage: React.FC = () => {
         </Description>
 
         <PrestonSection>
-          <PrestonAvatar expression="competitive" size={80} />
+          <PrestonAvatar expression="competitive" size={140} />
           <PrestonMessage>
             <PrestonText>
               "I respond in 0 seconds, 24/7. Let's see how fast you can be." — Preston™

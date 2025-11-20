@@ -198,7 +198,7 @@ export const Task3BriefingPage: React.FC = () => {
         </Description>
 
         <PrestonSection>
-          <PrestonAvatar expression="helpful" size={80} />
+          <PrestonAvatar expression="helpful" size={140} />
           <PrestonMessage>
             <PrestonText>
               "I handle routine admin 24/7. You handle what matters. Let's see if you know the difference." — Preston™

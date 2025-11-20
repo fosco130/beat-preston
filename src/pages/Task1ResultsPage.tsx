@@ -211,7 +211,7 @@ export const Task1ResultsPage: React.FC = () => {
         <Title>Great Start!</Title>
 
         <PrestonReaction shadow="standard">
-          <PrestonAvatar expression="helpful" size={90} />
+          <PrestonAvatar expression="helpful" size={150} />
           <PrestonMessage>
             <PrestonName>Preston</PrestonName>
             <PrestonText>Lead response is just the beginning. Ready to see what else I can handle for your agency?</PrestonText>

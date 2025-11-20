@@ -273,7 +273,7 @@ export const Task2GamePage: React.FC = () => {
           </UserProgressCard>
 
           <PrestonProgressCard>
-            <PrestonAvatar expression="thinking" size={36} />
+            <PrestonAvatar expression="thinking" size={72} />
             <ProgressContent>
               <ProgressLabel>
                 {prestonReady ? '✓ Preston™ complete!' : 'Preston™ analyzing...'}

@@ -497,7 +497,7 @@ export const FinalScorePage: React.FC = () => {
             transition={{ delay: 0.3, duration: 0.5, type: 'spring' }}
           >
             <PrestonVerdict shadow="prominent">
-              <PrestonAvatar expression={verdict.expression} size={100} />
+              <PrestonAvatar expression={verdict.expression} size={160} />
               <PrestonMessage>
                 <PrestonName>Preston™'s Verdict</PrestonName>
                 <PrestonText>{verdict.message}</PrestonText>

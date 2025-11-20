@@ -333,7 +333,7 @@ export const LeadCapturePage: React.FC = () => {
               transition={{ duration: 0.3 }}
             >
               <StepCard shadow="hero">
-                <PrestonAvatar expression="celebrating" size={100} showName />
+                <PrestonAvatar expression="celebrating" size={160} showName />
 
                 <StepTitle>Here's What You Could Save</StepTitle>
                 <StepText>
@@ -404,7 +404,7 @@ export const LeadCapturePage: React.FC = () => {
                 </ValuePropsGrid>
 
                 <PrestonSection>
-                  <PrestonAvatar expression="helpful" size={70} />
+                  <PrestonAvatar expression="helpful" size={120} />
                   <PrestonMessage>
                     <PrestonText>
                       "I work alongside your team, handling routine tasks instantly so your agents can

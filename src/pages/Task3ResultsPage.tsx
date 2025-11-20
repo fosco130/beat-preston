@@ -355,7 +355,7 @@ export const Task3ResultsPage: React.FC = () => {
         <Title>You're Done!</Title>
 
         <PrestonReaction shadow="standard">
-          <PrestonAvatar expression="helpful" size={90} />
+          <PrestonAvatar expression="helpful" size={150} />
           <PrestonMessage>
             <PrestonName>Preston</PrestonName>
             <PrestonText>Ready to see how you performed across all three challenges? Let's check out your final score and see where you rank!</PrestonText>
