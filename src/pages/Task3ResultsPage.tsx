@@ -372,7 +372,7 @@ export const Task3ResultsPage: React.FC = () => {
             </TextLink>
           </ButtonGroup>
         ) : (
-          <FormCard ref={formRef} shadow="hero">
+          <FormCard shadow="hero">
             <PrizeRoundel>
               <PrizeLabel>Win</PrizeLabel>
               <PrizeAmount>£2,000</PrizeAmount>

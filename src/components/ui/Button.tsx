@@ -14,7 +14,7 @@ const StyledButton = styled.button<ButtonProps>`
   align-items: center;
   justify-content: center;
   gap: 8px;
-  font-family: ${typography.fonts.sans};
+  font-family: ${typography.fonts.primary};
   font-size: ${typography.sizes.button};
   font-weight: ${typography.weights.medium};
   border-radius: ${borderRadius.sm};

@@ -7,13 +7,14 @@ interface BadgeProps {
   variant?: 'yellow' | 'green' | 'pink' | 'gray' | 'white';
   size?: 'small' | 'medium' | 'large';
   className?: string;
+  style?: React.CSSProperties;
 }
 
 const StyledBadge = styled.span<BadgeProps>`
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-family: ${typography.fonts.sans};
+  font-family: ${typography.fonts.primary};
   font-weight: ${typography.weights.medium};
   border-radius: ${borderRadius.pill};
   white-space: nowrap;

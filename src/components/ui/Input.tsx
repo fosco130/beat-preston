@@ -33,7 +33,7 @@ const StyledInput = styled.input`
   height: ${touchTargets.comfortable};
   padding: 12px 16px;
   font-size: ${typography.sizes.bodySmall};
-  font-family: ${typography.fonts.sans};
+  font-family: ${typography.fonts.primary};
   color: ${colors.textDark};
   background: ${colors.white};
   border: 1px solid ${colors.borderGray};
@@ -65,7 +65,7 @@ const StyledSelect = styled.select`
   height: ${touchTargets.comfortable};
   padding: 12px 16px;
   font-size: ${typography.sizes.bodySmall};
-  font-family: ${typography.fonts.sans};
+  font-family: ${typography.fonts.primary};
   color: ${colors.textDark};
   background: ${colors.white};
   border: 1px solid ${colors.borderGray};
